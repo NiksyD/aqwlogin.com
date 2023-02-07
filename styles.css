@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/bg-aqw-main.jpg);
+    background-size: cover;
+    font-family: arial;
+}
+
+.login-box{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: black;
+    opacity: .8;
+    transform: translate(-50%,-50%);
+    border: 5px solid goldenrod;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+
+.login-avatar{
+    width: 100px;
+    border: 5px solid goldenrod;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box-text{
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    top: 50px;
+}
+
+.login-box p{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.login-inputs{
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: solid gray;
+    background: transparent;
+}
+
+.login-btn{
+    color: white;
+    background: #d30011;
+    padding: 15px;
+    text-align: center;
+    max-width: 100%;
+    width: 500px;
+    border-radius: 25px;
+    margin: 20px 0;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.login-btn:hover{
+    cursor: pointer;
+    background-color: #f50217;
+}
+
+a{
+    text-decoration: none;
+    line-height: 1.5em;
+    color: rgb(20, 188, 188);
+}
+
+a:hover{
+    color: cyan
+}
+
+.fblogo{
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 50px)
+    margin: 10px;
+    border-radius: 50%;
+}
